@@ -1,0 +1,330 @@
+
+body {
+    
+    background-color: floralwhite;
+    font-family: monospace;
+    color: slategrey;
+
+
+
+}
+
+.contenedor{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    
+    
+    
+}
+
+
+.imglogo {
+    
+    width: 100%;
+    border-radius:15px;
+    
+    
+    
+}
+
+
+    
+    
+
+
+
+
+
+.menu {
+    background-color: floralwhite;
+          list-style: none;
+          padding:0px;
+          width: 71%;
+          max-width: 1000px;
+          margin: auto;
+          
+          
+          
+         }
+         
+         .menu li a{
+             border: 2px solid;
+             color: slategrey;
+             text-decoration: none;
+             background-color: gainsboro;
+             font-size: 22px;
+             padding: 3px;
+             display: block;
+               
+             
+         }
+         
+         .menu li {
+             display: inline-block;
+             text-align: center;
+             
+             
+         }
+         
+         .menu li a:hover{
+      
+           border: 3px solid;
+           font-size: 23px;
+             
+         }
+             
+             
+         
+         
+         
+
+h1 { border: 2px solid;
+     color: lightslategray;
+     width: 180px;
+     background-color: gainsboro;
+     font-family: monospace;
+     
+     position: relative;
+     
+     }   
+     
+ h1::after,h1::before{
+          content:'';
+          position: absolute;
+          width: 120px;
+          height: 3px;
+          background-color: slategrey;
+          top: 0.4cm;
+          transform: scale(0);
+          transition:all 0.2s ease-in;
+          
+          }
+          
+          h1:hover::before, h1:hover::after{
+              
+              transform: scale(1);
+          }
+
+          h1::before{
+            left: -150px;  
+              
+          }
+          h1::after{
+            left: 215px; 
+              
+          }    
+h1:hover {  
+    border: 3px solid;
+    } 
+    
+     
+
+a   { text-decoration: none;
+      color:slategrey;
+      font-size: 21px;
+} 
+       
+a:hover{
+     color: dimgray;
+     
+    } 
+   
+
+ .whatsapp {
+     position: fixed;
+     right: 50px;
+     bottom: 50px;
+     z-index: 1;
+     
+    
+   }  
+   .whatsapp:hover {
+       transform: scale(1.25);
+       
+       
+       }
+       
+       .ins-whats{
+           
+         
+         
+           
+       }
+       
+       .ins1 {
+           
+           margin-right: 10px;
+           
+       }
+     
+       
+       
+       .ins1:hover {
+           
+           transform: scale(1.25);
+           
+           
+           
+       }
+       
+       .wts2 {
+           
+           margin-right: 10px;
+           
+       }
+       .wts2:hover {
+           transform: scale(1.25);
+       }
+      
+       .intro {
+          
+           margin-right: 15px;
+           font-size: 20px;
+           color: darkgrey;
+           font-family: monospace;
+           
+           
+           
+           
+           
+       }
+       
+       .titulo {
+          width: 100%;
+          color: slategrey;
+      font-size: 25px;
+      font-family: monospace;
+      }
+      
+      
+      
+      
+      .liquidos {
+          color:slategrey;
+      font-size: 20px;
+      font-family: monospace;
+      }
+          
+      p {
+          display: inline-block;
+          position: relative;
+          
+          
+      }
+      
+      .lines-effects::after,.lines-effects::before{
+          content:'';
+          position: absolute;
+          width: 120px;
+          height: 3px;
+          background-color: slategrey;
+          top: 0.4cm;
+          transform: scale(0.5);
+          transition:all 0.2s ease-in;
+          
+          }
+          
+          p:hover::before, p:hover::after{
+              
+              transform: scale(1);
+          }
+
+          p::before{
+            left: -140px;  
+              
+          }
+          p::after{
+            left: 500px;  
+              
+          }
+          
+          hr {
+              width: 25%;
+              
+             background-color: slategrey;
+          }
+          
+          .imglogo2 {
+              
+             border-radius:15px;
+            
+          }
+          
+          .menufinal {
+              padding: 0;
+              list-style: none;
+             
+             
+            
+              margin: auto;
+                
+              
+          }
+         
+          .menufinal li a{
+              
+              text-decoration: none;
+              color: dimgray;
+              padding: 20px;
+              display: block;
+              font-family: monospace;
+              }    
+              
+              .menufinal li a:hover {
+                  transform: scale(1.25);
+                  
+              }  
+              
+         .menufinal li {
+                 display: inline-block;
+                 text-align: center;
+                  
+              }
+              
+              
+              @media screen and (max-width:800px) {
+                  .menufinal li{
+                      display: list-item;
+                      
+                  }
+                  .menufinal {
+                      background-color: floralwhite;
+                  }
+                  .titulo {
+                      transform: scale(0.75);
+                      
+                  }
+                  .titulo liquidos {
+                      transform: scale(0.65);
+                  }
+                  p::before{
+                  left: -110px;  
+              
+                   }
+                   p::after{
+                   left: 310px;  
+              
+                     }
+                  
+                   .imglogo2 {
+                         width: 300px;
+                         height: 300px;
+                         
+                     }  
+                     
+                     .liquidos p {
+                         transform:  scale(0.80);
+                     }
+                  
+                     .liquidos img {
+                         transform:  scale(0.90);
+                     }
+                     
+                     
+                  }
+                      
+                  
+              
+             
